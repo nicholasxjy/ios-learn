@@ -1,0 +1,16 @@
+PODS:
+  - Canvas (0.1.2)
+  - ChameleonFramework (1.1.0)
+  - pop (1.0.6)
+
+DEPENDENCIES:
+  - Canvas (~> 0.1)
+  - ChameleonFramework
+  - pop (~> 1.0)
+
+SPEC CHECKSUMS:
+  Canvas: ae2faca05a15c4d6659fb3ae5e2a14817df4449a
+  ChameleonFramework: 9dd83c1e66b4385ed15cb8c18fac12f6a56bbe0d
+  pop: e518794da38942c05255eb64b36d894e70cb4f00
+
+COCOAPODS: 0.33.1

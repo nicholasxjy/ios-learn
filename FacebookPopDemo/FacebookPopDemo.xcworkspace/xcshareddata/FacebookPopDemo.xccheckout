@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A4D83507-148F-4D7C-8D16-6615A1C91837</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FacebookPopDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E939A12D-20F5-4B43-91E8-AB40F25B0C29</key>
+		<string>https://github.com/nicholasxjy/ios-learn.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FacebookPopDemo/FacebookPopDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E939A12D-20F5-4B43-91E8-AB40F25B0C29</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nicholasxjy/ios-learn.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E939A12D-20F5-4B43-91E8-AB40F25B0C29</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E939A12D-20F5-4B43-91E8-AB40F25B0C29</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-learn</string>
+		</dict>
+	</array>
+</dict>
+</plist>
