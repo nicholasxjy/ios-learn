@@ -26,6 +26,14 @@
 }
 
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    self.userNameIcon.image = [UIImage imageNamed:@"iconuseractive"];
+    self.userNameTextField.background = [UIImage imageNamed:@"icontextfieldactive"];
+    [self.userNameTextField becomeFirstResponder];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

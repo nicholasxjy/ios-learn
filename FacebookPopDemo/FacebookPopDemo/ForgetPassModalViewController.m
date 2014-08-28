@@ -26,6 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    self.forgetPassEmailTextfield.background = [UIImage imageNamed:@"icontextfieldactive"];
+    [self.forgetPassEmailTextfield becomeFirstResponder];
+}
+
 #pragma mark - UIViewControllerTransitioningDelegate
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented
                                                                   presentingController:(UIViewController *)presenting
@@ -70,8 +77,5 @@
     
 }
 
-- (IBAction)forgetPassCancel:(id)sender
-{
-    [self dismissViewControllerAnimated:YES completion:NULL];
-}
+
 @end

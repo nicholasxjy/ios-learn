@@ -24,6 +24,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    self.iconUserView.image = [UIImage imageNamed:@"iconuseractive"];
+    self.userNameTextfield.background = [UIImage imageNamed:@"icontextfieldactive"];
+    [self.userNameTextfield becomeFirstResponder];
+}
+
 #pragma mark - UITextfield delegate
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {

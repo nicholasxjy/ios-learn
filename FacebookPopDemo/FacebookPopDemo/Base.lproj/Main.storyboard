@@ -105,8 +105,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="TEp-9q-MPV">
-                                <rect key="frame" x="20" y="38" width="280" height="206"/>
+                            <view tag="10" contentMode="scaleToFill" id="TEp-9q-MPV">
+                                <rect key="frame" x="20" y="38" width="280" height="186"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget Password?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zjj-Oj-ppZ">
@@ -124,7 +124,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RGk-5K-tsS">
-                                        <rect key="frame" x="15" y="136" width="120" height="44"/>
+                                        <rect key="frame" x="15" y="122" width="250" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                         <state key="normal" title="Submit" backgroundImage="button-primary">
@@ -132,17 +132,6 @@
                                         </state>
                                         <connections>
                                             <action selector="forgetPassButtonCheck:" destination="Fo3-w7-uUj" eventType="touchUpInside" id="0ec-Ib-Q3U"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gZ4-rl-MuX">
-                                        <rect key="frame" x="145" y="136" width="120" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
-                                        <state key="normal" title="Cancel" backgroundImage="button-primary">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="forgetPassCancel:" destination="Fo3-w7-uUj" eventType="touchUpInside" id="B7u-d4-9pL"/>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="center" minimumFontSize="17" background="icontextfield" id="dUt-J9-6lI">
@@ -181,7 +170,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="b7u-CS-WFs">
+                            <view tag="10" contentMode="scaleToFill" id="b7u-CS-WFs">
                                 <rect key="frame" x="15" y="38" width="290" height="298"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -294,7 +283,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="oB9-lz-8xC">
+                            <view tag="10" contentMode="scaleToFill" id="oB9-lz-8xC">
                                 <rect key="frame" x="20" y="50" width="280" height="333"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>

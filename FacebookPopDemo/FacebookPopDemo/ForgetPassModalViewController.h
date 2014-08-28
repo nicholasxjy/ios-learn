@@ -10,7 +10,6 @@
 
 @interface ForgetPassModalViewController : UIViewController <UITextFieldDelegate>
 - (IBAction)forgetPassButtonCheck:(id)sender;
-- (IBAction)forgetPassCancel:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextField *forgetPassEmailTextfield;
 
 @end
